@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Estelizando Formulários</title>
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+
+        <h2>Estelizando um Formulário</h2>
+        <form>
+            <fieldset>
+                <legend>Detalhe de contato</legend>
+
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input type="text" name="nome" id="nome"/>
+                </div>
+
+                <div>
+                    <label for="email">Email:</label>
+                    <input type="text" name="email" id="email"/>
+                </div>
+
+                <div>
+                    <label for="url">URL:</label>
+                    <input type="text" name="url" id="url"/>
+                </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Comentarios</legend>
+               <div>
+                   <label>Mensagem:</label>
+                   <textarea name="mensagem" id="mensagem"></textarea>
+               </div>
+            </fieldset>
+
+            <fieldset>
+                <legend>Lembrar de mim</legend>
+               <div>
+                   <label>
+                       <input class="radio"type="radio" name="lembrar" id="sim">Sim
+                   </label>
+               </div>
+               <div>
+                   <label>
+                       <input class="radio" type="radio" name="lembrar" id="nao">Não
+                   </label>
+               </div>
+            </fieldset>:<wbr></wbr>
+        </form>
+    </body>
+</html>
