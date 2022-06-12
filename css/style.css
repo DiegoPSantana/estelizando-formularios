@@ -19,8 +19,8 @@ label{
 }
 
 input/*[type="text"] -> Para apenas fazer as mudannças em tipo de texto, onde aqui não quero que
-      type radio receba essa mudança, porém recomenda se usar classes devido à navegadores
-      antigos não funcionar */{
+type radio receba essa mudança, porém recomenda se usar classes devido à navegadores
+antigos não funcionar */{
     width: 20em;
 }
 
